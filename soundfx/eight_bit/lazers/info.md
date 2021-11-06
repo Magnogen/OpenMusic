@@ -1,5 +1,6 @@
 # Info
 ## 8Bit Lazer Sound Effects
+`By Magnogen`
 
 For all your Pew Pew needs
 
