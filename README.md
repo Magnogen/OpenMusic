@@ -9,12 +9,12 @@ I must ask though, that if you decide to use any of these, please do include the
 
 ⚖️ Crediting (copy and paste this)
 ```
-Magnogen/OpenMusic:[path and file name]
+Magnogen/OpenMusic:[file name]
 ```
 
 Resulting in something like:
 ```
-Magnogen/OpenMusic:eightbit_lazers
+Magnogen/OpenMusic:8bit_lazers
 ```
 
 You can put these anywhere, just make sure it's easily visible
