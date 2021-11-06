@@ -7,18 +7,17 @@ I thought I could merge the two together, kind of like a collection of music and
 
 ⏲️ This project is in its early stages, so there isn't a lot of stuff yet, but I hope to add more as time goes on, including some longer pieces of music and things too!
 
-➕ Please feel free to open a Pull Request if you want to add some of of your sounds in here, your name will be in the credits too! 
-
-I must ask though, that if you decide to use any of these, please do include the following in your credits, substituting things in [brackets], thank you!
-
-⚖️ Crediting (copy and paste this)
+### ⚖️ Crediting
+Copy and paste from this template, substituting things in [brackets] 
 ```
 [producer]/OpenMusic:[file name]
 ```
-
 Resulting in something like:
 ```
 Magnogen/OpenMusic:8bit_lazers
 ```
-
 You can put these anywhere, just make sure it's easily visible
+
+### 🎶 Contributors
+➕ Please feel free to open a Pull Request if you want to add some of of your sounds in here, your name will be in the credits too!  
+- `Magnogen` 📻
