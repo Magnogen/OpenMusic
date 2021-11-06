@@ -10,14 +10,14 @@ I thought I could merge the two together, kind of like a collection of music and
 ### ⚖️ Crediting
 Copy and paste from this template, substituting things in [brackets] 
 ```
-[producer]/OpenMusic:[file name]
+OpenMusic/[producer]:[file name]
 ```
 Resulting in something like:
 ```
-Magnogen/OpenMusic:8bit_lazers
+OpenMusic/Magnogen:8bit_lazers
 ```
 You can put these anywhere, just make sure it's easily visible
 
 ### 🎶 Contributors
-➕ Please feel free to open a Pull Request if you want to add some of of your sounds in here, your name will be in the credits too!  
+➕ Please feel free to open a Pull Request if you want to add some of your sounds in here, your name will be in the credits too!  
 - `Magnogen` 📻
