@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | Magnogen</title>
+    <base href="https://magnogen.net" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Magnogen's Official Website - Find my Tracks, Apps, and Datapacks! Plus a few handy tools too..." />
+    <link rel="shortcut icon" href="https://magnogen.net/src/favicon.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://magnogen.net/src/basics.css" />
+  </head>
+  <body>
+    <script src="https://magnogen.net/src/navbar.js"
+            path="HOME"
+            rules="HOME:.here">
+    </script>
+    
+    <script src="https://magnogen.net/src/header.js"
+            colors="#a80032,#ff004c"
+            title="OPENMUSIC"
+            subtitle="Dreamt by Mag"
+            shape="5">
+    </script>
 
+    <div class="w3-content w3-container w3-padding-64">
+      <a href="https://github.com/Magnogen/OpenMusic"><h3 class="w3-center">LINK</h3></a>
+      <div class="w3-row">
+        <div class="w3-padding-large">
+          <p>
+            Testing testing, 1 2, 1 2
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w3-center w3-padding-64">
+      <div class="w3-xlarge w3-section">
+        <a style="text-decoration: none;"
+          href="https://www.instagram.com/magnogenofficial/"
+        > <i class="fa fa-instagram w3-hover-opacity"></i> </a> &nbsp
+        <a style="text-decoration: none;"
+          href="https://www.youtube.com/channel/UCosxKKKPJk4aZlwF_EFe2pw"
+        > <i class="fa fa-youtube-play w3-hover-opacity"></i> </a > &nbsp
+        <a style="text-decoration: none;"
+          href="https://www.reddit.com/user/MagnogenOnTheMoon"
+        > <i class="fa fa-reddit-alien w3-hover-opacity"></i> </a>
+      </div>
+      <p>Follow Me On My Socials!</p>
+    </footer>
+    <script src="https://magnogen.net/quotes.js"></script>
+    <script>
+      let rand = Math.floor(Math.random() * quotes.length);
+      document.getElementById("quotes").innerHTML = `<span style="color:#0032a8;font-size:150%;"><i class="fa fa-quote-left"></i> </span>${quotes[rand][0]}<br> - ${quotes[rand][1]}`;
+      function toggleFunction(){
+        let x = document.getElementById("mobileNav");
+        if (x.className.indexOf("w3-show") == -1) x.className +=" w3-show";
+        else x.className = x.className.replace(" w3-show", "");
+      }
+    </script>
+  </body>
+</html>
